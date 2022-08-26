@@ -16,7 +16,7 @@ bool Validate(const string& strDigit)
 
     for(size_t i = 0; i < strDigit.size(); ++i)
     {
-        if(isdigit(strDigit[i]))
+        if(isdigit(strDigit[i]))                // increament by one if find digit
         {
             keepTrackDigit += 1;
         }
